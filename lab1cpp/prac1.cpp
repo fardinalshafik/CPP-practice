@@ -15,7 +15,7 @@ inline char calculateLetterGrade(int score) {
 }
 int main() {
     int studentScore;
-    cout << "Enter the student's score: ";
+    cout << "Enter the student score: ";
     cin >> studentScore;
     if (studentScore >= 0 && studentScore <= 100) {
         char letterGrade = calculateLetterGrade(studentScore);
